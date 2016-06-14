@@ -14,7 +14,7 @@ module GoogleTagManager
   def self.gtm_auth
     @@gtm_auth ||= PLACEHOLDER_GTM_AUTH
   end
-  def self.gtm_auth(gtm_auth)
+  def self.gtm_auth=(gtm_auth)
     @@gtm_auth = gtm_auth
   end
 
